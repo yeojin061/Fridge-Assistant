@@ -30,6 +30,7 @@ Due to data dependency issues, the code is not executable as is.
 - /model/model_training.py: Code for training the model. 모델을 학습시키는 코드를 포함합니다.
 - /evaluation/evaluate_model.py: Code for evaluating the model. 모델을 평가하는 코드를 포함합니다.
 - /visualization/visualize_results.py: Code for visualizing predictions. 예측 결과를 시각화하는 코드를 포함합니다.
+- /android-integration/classify_image.java : Code for integrating TensorFlow Lite in Android Studio. Android Studio에서 TensorFlow Lite를 연동하는 코드를 포함합니다.
 
 ## How to Use
 1. Preprocess data using data_preprocessing/preprocess.py. 해당 코드를 사용하여 데이터를 전처리합니다.
@@ -37,3 +38,4 @@ Due to data dependency issues, the code is not executable as is.
 3. Train the model using model/model_training.py. 해당 코드를 사용하여 모델을 학습합니다.
 4. Evaluate the model using evaluation/evaluate_model.py. 해당 코드를 사용하여 모델을 평가합니다.
 5. Visualize results using visualization/visualize_results.py. 해당 코드를 사용하여 결과를 시각화합니다.
+6. Integrate the model using android-integration/classify_image.java. 해당 코드를 사용하여 Android 애플리케이션에 모델을 통합합니다.
